@@ -8,15 +8,17 @@ import java.util.Scanner;
  */
 public class RWGameFiles {
 
+    public static ArrayList<String> catAndQuest = new ArrayList<>();
+
     public static ArrayList<String> readFile() throws FileNotFoundException {
-        File gameFile = new File("GameFile.txt");
+        File gameFile = new File("CatAndQuestions.txt");
         Scanner fileScan = new Scanner(gameFile);
         fileScan.useDelimiter("\s[|]\s");
-        ArrayList<String> catAndQuest = new ArrayList<>();
+
         while (fileScan.hasNext()) {
-//            System.out.println(fileScan.next());
             catAndQuest.add(fileScan.next());
         }
+
         fileScan.close();
         return catAndQuest;
     }

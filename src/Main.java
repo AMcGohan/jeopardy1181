@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Random;
@@ -6,11 +7,10 @@ import java.util.Random;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
+        //File reader
         ArrayList<String> gameFile = new ArrayList<>(RWGameFiles.readFile());
 
-        Random rand = new Random() ;
-        for (int i = 0; i < 20; i++) {
-            System.out.println(gameFile.get(rand.nextInt(1, 6)));
-        }
+        //Makes window
+        JFrame main = new GameGUI();
     }
 }

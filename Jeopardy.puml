@@ -1,0 +1,7 @@
+@startuml
+class GameGUI {
+}
+class RWGameFiles {
+readFile()
+}
+@enduml

@@ -12,8 +12,5 @@ public class Main {
 
         //Makes window
         JFrame main = new GameGUI();
-
-        //Git Test
-        //Git Testing Surface
     }
 }

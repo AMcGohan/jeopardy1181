@@ -25,8 +25,8 @@ public class GameGUI extends JFrame {
         mainPanel.setLayout(new GridLayout(6, 1));
         GridBagConstraints gbc = null;
         //Buttons for questions
-        for (int i = 1; i < RWGameFiles.catAndQuest.size(); i++) {
-            JButton q = new JButton(RWGameFiles.catAndQuest.get(i));
+        for (int i = 1; i < RWGameFiles.cats.size(); i++) {
+            JButton q = new JButton(RWGameFiles.cats.get(i));
             gbc = new GridBagConstraints();
             gbc.gridx=0;
             gbc.gridy = i;

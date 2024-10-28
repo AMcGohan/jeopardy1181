@@ -1,3 +1,42 @@
 Video Games | Who created Mario? | What was Atari's breakthrough console? | What was Xbox's second console? | Shigeru Miyamoto | Atari 2600 | Xbox 360
-History | Who was the first president of the U.S.? | Who was the last Czar of Russia? | Where was Albert Einstein from? | George Washington | Nicholas II | Germany
-Entertainment | What vocal range was Luciano Pavarotti? | Who starred in Blade Runner? | What was Pearl Jams first album? | Tenor | Harrison Ford | Ten
+ | History | Who was the first president of the U.S.? | Who was the last Czar of Russia? | Where was Albert Einstein from? | George Washington | Nicholas II | Germany
+ | Entertainment | What vocal range was Luciano Pavarotti? | Who starred in Blade Runner? | What was Pearl Jams first album? | Tenor | Harrison Ford | Ten
+ | Science | What is the chemical symbol for water? | What planet is known as the Red Planet? | What is the powerhouse of the cell? | H2O | Mars | Mitochondria
+ | Geography | What is the capital of France? | Which river is the longest in the world? | What country has the most time zones? | Paris | Nile | France
+ | Movies | Who directed "Jaws"? | Which actor played Iron Man in the Marvel movies? | What year was "The Godfather" released? | Steven Spielberg | Robert Downey Jr. | 1972
+ | Literature | Who wrote "1984"? | What is the title of the first Harry Potter book? | Who is the author of "Moby-Dick"? | George Orwell | Harry Potter and the Philosopher's Stone | Herman Melville
+ | Sports | What is the most popular sport in the world? | Who holds the record for the most goals in a single World Cup? | Which sport uses the term 'love' for scoring? | Soccer | Just Fontaine | Tennis
+ | Music | Who is known as the "King of Pop"? | What band was Freddie Mercury the lead singer of? | Which instrument has 88 keys? | Michael Jackson | Queen | Piano
+ | Animals | What is the fastest land animal? | Which mammal is known to have the longest lifespan? | What is the only mammal capable of true flight? | Cheetah | Bowhead Whale | Bat
+ | Mythology | Who is the Greek god of the sea? | In Norse mythology, who is the god of thunder? | Which animal is associated with the Egyptian god Anubis? | Poseidon | Thor | Jackal
+ | Food | Which fruit is the main ingredient in guacamole? | What is the main ingredient in sushi? | What type of pasta is shaped like little ears? | Avocado | Rice | Orecchiette
+ | Art | Who painted the Mona Lisa? | Which artist is known for cutting off his ear? | What style is Pablo Picasso famous for? | Leonardo da Vinci | Vincent van Gogh | Cubism
+ | Technology | What does CPU stand for? | Who co-founded Apple Inc.? | What is the name of the first computer virus? | Central Processing Unit | Steve Jobs | Creeper
+ | Space | What is the largest planet in our solar system? | Who was the first human in space? | What galaxy is Earth in? | Jupiter | Yuri Gagarin | Milky Way
+ | Languages | What is the most spoken language in the world? | What language is primarily spoken in Brazil? | How many letters are in the English alphabet? | Mandarin Chinese | Portuguese | 26
+ | Television | Who played Walter White in "Breaking Bad"? | What is the longest-running animated TV show? | What streaming service produced "Stranger Things"? | Bryan Cranston | The Simpsons | Netflix
+ | Fashion | What luxury brand uses a crocodile as its logo? | Who is known as the "Queen of Pop"? | Which designer is famous for the "little black dress"? | Lacoste | Madonna | Coco Chanel
+ | Famous Landmarks | Where is the Great Wall located? | What city is the Eiffel Tower in? | What mountain is known as the tallest in the world? | China | Paris | Mount Everest
+ | Medicine | Who is considered the father of modern medicine? | What organ pumps blood throughout the body? | What vitamin is known as the "sunshine vitamin"? | Hippocrates | Heart | Vitamin D
+ | Mythology | Who was the Greek goddess of wisdom? | What is the Roman name for the god Zeus? | What creature has the body of a lion and the head of a man? | Athena | Jupiter | Sphinx
+ | Aviation | What is the name of the Wright brothers' first successful airplane? | What is the busiest airport in the world by passenger traffic? | What does "ATC" stand for in aviation? | Wright Flyer | Hartsfield-Jackson Atlanta International | Air Traffic Control
+ | Literature | Who wrote "To Kill a Mockingbird"? | Which novel features the character Jay Gatsby? | Who is the author of "The Catcher in the Rye"? | Harper Lee | The Great Gatsby | J.D. Salinger
+ | Space | Which planet has the largest moon in the solar system? | What is the hottest planet? | What is the name of the first artificial satellite? | Jupiter | Venus | Sputnik 1
+ | Animals | What is the largest species of shark? | What is a baby kangaroo called? | Which bird is known for its ability to mimic sounds? | Whale shark | Joey | Lyrebird
+ | Mythology | Who is the Greek goddess of love? | What was the name of the Greek god of war? | What is the Roman equivalent of Hermes? | Aphrodite | Ares | Mercury
+ | Sports | In which sport is the Stanley Cup awarded? | What country hosted the 2016 Summer Olympics? | Who holds the record for most home runs in MLB history? | Ice hockey | Brazil | Barry Bonds
+ | Inventions | Who invented the telephone? | What year was the first airplane flight? | Who is credited with inventing the light bulb? | Alexander Graham Bell | 1903 | Thomas Edison
+ | Technology | What does RAM stand for? | Which company developed the iPhone? | What does HTTP stand for? | Random Access Memory | Apple | HyperText Transfer Protocol
+ | Art | Who painted "Starry Night"? | What type of painting is Leonardo da Vinci's "The Last Supper"? | Which artist is famous for his melting clocks? | Vincent van Gogh | Mural | Salvador Dalí
+ | Movies | Who directed "Pulp Fiction"? | What movie won Best Picture at the 2020 Academy Awards? | Who played Forrest Gump? | Quentin Tarantino | Parasite | Tom Hanks
+ | Music | Who was the lead singer of Nirvana? | What was the first music video on MTV? | What year did The Beatles break up? | Kurt Cobain | "Video Killed the Radio Star" | 1970
+ | Languages | What is the official language of Egypt? | What is the most spoken language in South America? | How many official languages does Switzerland have? | Arabic | Spanish | Four
+ | History | Who was the first emperor of China? | Which battle ended Napoleon’s rule? | What was the primary cause of the American Civil War? | Qin Shi Huang | Battle of Waterloo | Slavery
+ | Fashion | What fashion house is known for its red-soled shoes? | What is the name of the luxury brand with a Medusa logo? | Who designed Princess Diana's wedding dress? | Christian Louboutin | Versace | David and Elizabeth Emanuel
+ | Space | What is the second-largest planet in the solar system? | Who was the first woman in space? | What is the name of Mars' largest moon? | Saturn | Valentina Tereshkova | Phobos
+ | Food | Which spice is known as "the queen of spices"? | What fruit is used to make wine? | What is the primary ingredient in hummus? | Cardamom | Grapes | Chickpeas
+ | Geography | Which ocean is the largest? | What is the tallest mountain in North America? | Which country is known as the Land of the Rising Sun? | Pacific Ocean | Denali | Japan
+ | TV Shows | What is the longest-running drama TV series in the US? | Who played the character Ross Geller on "Friends"? | What is the setting for "Game of Thrones"? | Grey’s Anatomy | David Schwimmer | Westeros
+ | Medicine | What is the largest organ in the human body? | Who developed the first vaccine for polio? | What blood type is known as the universal donor? | Skin | Jonas Salk | O-negative
+ | Nature | What is the tallest tree species in the world? | What is the name of the process by which plants make food? | Which animal is known as the king of the jungle? | Coast redwood | Photosynthesis | Lion
+ | Technology | What does VPN stand for? | What year was the World Wide Web invented? | Which company developed the Windows operating system? | Virtual Private Network | 1989 | Microsoft

@@ -6,18 +6,18 @@ import java.util.Collections;
 
 public class GameGUI extends JFrame {
 
-    private static int currentPoint;
-    private JLabel pointCounter;
+    public static int currentPoint;
+    public static JLabel pointCounter;
     private JLabel qLabel;
     private JTextField answerText;
     private String gameAnswer;
-    private int questionPoints;
+    public static int questionPoints;
 
     /**
      * Once a button is pressed, actionPerformed checks the buttons category and question, then opens a new panel that
      * asks the question  to the user with a text field.
      */
-    public class ButtonListener implements ActionListener {
+    public static class ButtonListener implements ActionListener {
 
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -35,40 +35,12 @@ public class GameGUI extends JFrame {
                                 questionPoints = Integer.parseInt(points[j - 1].replace("$", ""));
 
                                 int a = j + 3;
-                                timeToQuestion(category[j], category[a]);
+                                QuestionGUI gui = new QuestionGUI(category[j], category[a], questionPoints);
                             }
                         }
                     }
             }
-            //Submit button
-            if (e.getSource() instanceof JButton) {
-                String userAnswer = answerText.getText();
-                if (((JButton) e.getSource()).getText().equalsIgnoreCase("Submit")) {
-                    answerText.setText("");
-
-                    //Answer was correct
-                    if (userAnswer.equalsIgnoreCase(gameAnswer.trim())) {
-                        qLabel.setText("Correct!");
-                        currentPoint += questionPoints;
-                        pointCounter.setText("$" + currentPoint);
-
-                        //Answer was incorrect
-                    } else {
-                        qLabel.setText("Incorrect. Answer was: " + gameAnswer);
-                        currentPoint -= questionPoints;
-                        System.out.println(gameAnswer);
-                        pointCounter.setText("$" + currentPoint);
-                    }
-                }
-            }
         }
-    }
-
-
-    public void timeToQuestion(String q, String a) {
-        qLabel.setText("Question: " + q);
-        gameAnswer = a;
-
     }
 
     /**
@@ -89,7 +61,7 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 0;
             gbc.gridy = i;
-            gbc.insets = new Insets(0, 0, 5, 0);
+            gbc.insets = new Insets(4, 0, 4, 0);
             c.addActionListener(bl);
             c.setEnabled(false);
             p.add(c, gbc);
@@ -100,7 +72,7 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 1;
             gbc.gridy = i;
-            gbc.insets = new Insets(0, 0, 5, 0);
+            gbc.insets = new Insets(4, 2, 4, 2);
             q.addActionListener(bl);
             q.setName("c" + i);
             p.add(q, gbc);
@@ -109,7 +81,7 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 2;
             gbc.gridy = i;
-            gbc.insets = new Insets(0, 0, 5, 0);
+            gbc.insets = new Insets(4, 2, 4, 2);
             q2.addActionListener(bl);
             q2.setName("c" + i);
             p.add(q2, gbc);
@@ -118,7 +90,7 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 3;
             gbc.gridy = i;
-            gbc.insets = new Insets(0, 0, 5, 0);
+            gbc.insets = new Insets(4, 2, 4, 2);
             q3.addActionListener(bl);
             q3.setName("c" + i);
             p.add(q3, gbc);
@@ -131,38 +103,6 @@ public class GameGUI extends JFrame {
                 gbc.gridx = 2;
                 gbc.gridy = 4;
                 p.add(pointCounter, gbc);
-
-                //JLabel for Questions
-                qLabel = new JLabel("Question: ");
-                gbc = new GridBagConstraints();
-                gbc.gridx = 3;
-                gbc.gridy = 4;
-                gbc.fill = GridBagConstraints.HORIZONTAL;
-                p.add(qLabel, gbc);
-
-                //JTextField for Answer
-                answerText = new JTextField();
-                gbc = new GridBagConstraints();
-                gbc.gridx = 4;
-                gbc.gridy = 4;
-                gbc.fill = GridBagConstraints.HORIZONTAL;
-                p.add(answerText, gbc);
-
-                //Submit Button
-                JButton submitButton = new JButton("Submit");
-                gbc = new GridBagConstraints();
-                gbc.gridx = 5;
-                gbc.gridy = 4;
-                gbc.fill = GridBagConstraints.HORIZONTAL;
-                submitButton.addActionListener(bl);
-                p.add(submitButton, gbc);
-
-//                //Instructions
-//                JButton instructions = new JButton("Instructions");
-//                gbc = new GridBagConstraints();
-//                gbc.gridx = 0;
-//                gbc.gridy= 6;
-//                p.add(instructions, gbc);
             }
         }
     }

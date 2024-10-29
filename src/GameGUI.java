@@ -170,7 +170,6 @@ public class GameGUI extends JFrame {
     GameGUI() {
         //Setting up GUI
         setTitle("Quiz Game");
-        setSize(1200, 1200);
         setLocationRelativeTo(null);
 
         JPanel mainPanel = new JPanel();
@@ -178,6 +177,7 @@ public class GameGUI extends JFrame {
 
         mainLayout(mainPanel);
         add(mainPanel);
+        pack();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
     }

@@ -5,18 +5,19 @@ import java.awt.event.ActionListener;
 
 public class QuestionGUI extends JFrame implements ActionListener {
 
-    private String questionText;
-    private String gameAnswer;
-    private JTextField answerField;
-    private int questionPoints;
+    private final String gameAnswer;
+    private final JTextField answerField;
+    private final int questionPoints;
 
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() instanceof JButton) {
             String userAnswer = answerField.getText();
+            //If answer is correct:
             if (userAnswer.equalsIgnoreCase(gameAnswer.trim())) {
                 GameGUI.currentPoint += questionPoints;
             } else {
+                ResultGUI result = new ResultGUI(gameAnswer);
                 GameGUI.currentPoint -= questionPoints;
             }
             GameGUI.pointCounter.setText("$" + GameGUI.currentPoint);
@@ -27,14 +28,12 @@ public class QuestionGUI extends JFrame implements ActionListener {
 
     QuestionGUI(String q, String a, int p) {
 
-        questionText = q;
         gameAnswer = a;
         questionPoints = p;
 
 
-        setTitle(questionText);
+        setTitle(q);
         setLocationRelativeTo(null);
-//        setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         GridBagConstraints gbc = new GridBagConstraints();
 
@@ -43,7 +42,7 @@ public class QuestionGUI extends JFrame implements ActionListener {
         qMain.setLayout(new GridBagLayout());
 
         //Question
-        JLabel qLabel = new JLabel("Question: " + questionText);
+        JLabel qLabel = new JLabel("Question: " + q);
         gbc = new GridBagConstraints();
         gbc.gridx= 0;
         gbc.gridy=0;

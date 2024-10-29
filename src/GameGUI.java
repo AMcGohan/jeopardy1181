@@ -8,9 +8,6 @@ public class GameGUI extends JFrame {
 
     public static int currentPoint;
     public static JLabel pointCounter;
-    private JLabel qLabel;
-    private JTextField answerText;
-    private String gameAnswer;
     public static int questionPoints;
 
     /**

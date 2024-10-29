@@ -10,7 +10,7 @@ public class JeoInput {
 
     public static ArrayList<String[]> gameInput() throws FileNotFoundException {
         Scanner fileScan = new Scanner(gameFile);
-        fileScan.useDelimiter(" [|] ");
+        fileScan.useDelimiter("\\s[|]\\s|\\W\\WMade\\swith\\sAI::");
         while (fileScan.hasNext()) {
             String[] lines = new String[7];
             for (int i = 0; i < 7; i++) {

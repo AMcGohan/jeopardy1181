@@ -69,7 +69,6 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 1;
             gbc.gridy = i;
-            gbc.insets = new Insets(4, 2, 4, 2);
             q.addActionListener(bl);
             q.setName("c" + i);
             p.add(q, gbc);
@@ -78,7 +77,6 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 2;
             gbc.gridy = i;
-            gbc.insets = new Insets(4, 2, 4, 2);
             q2.addActionListener(bl);
             q2.setName("c" + i);
             p.add(q2, gbc);
@@ -87,7 +85,6 @@ public class GameGUI extends JFrame {
             gbc = new GridBagConstraints();
             gbc.gridx = 3;
             gbc.gridy = i;
-            gbc.insets = new Insets(4, 2, 4, 2);
             q3.addActionListener(bl);
             q3.setName("c" + i);
             p.add(q3, gbc);
@@ -96,6 +93,11 @@ public class GameGUI extends JFrame {
             if (i == 4) {
                 //Point counter
                 pointCounter = new JLabel("$0");
+
+                //https://stackoverflow.com/questions/2715118/how-to-change-the-size-of-the-font-of-a-jlabel-to-take-the-maximum-size
+                pointCounter.setFont(new Font("Serif", Font.BOLD, 18));
+                pointCounter.setForeground(Color.gray);
+
                 gbc = new GridBagConstraints();
                 gbc.gridx = 2;
                 gbc.gridy = 4;
@@ -104,6 +106,9 @@ public class GameGUI extends JFrame {
         }
     }
 
+    /**
+     * GameGUI constructor
+     */
     GameGUI() {
         //Setting up GUI
         setTitle("Quiz Game");
@@ -111,6 +116,7 @@ public class GameGUI extends JFrame {
 
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new GridLayout(6, 5));
+        mainPanel.setBackground(Color.BLUE);
 
         mainLayout(mainPanel);
         add(mainPanel);

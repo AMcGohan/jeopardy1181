@@ -22,6 +22,12 @@ public class Main {
         }
     }
 
+    /**
+     * Main starts by making an ArrayList of all the inputs of the game file. Then it creates a JFrame of the tutorial
+     * window that displays at the start.
+     * @param args
+     * @throws FileNotFoundException
+     */
     public static void main(String[] args) throws FileNotFoundException {
         //File reader
         ArrayList<String[]> game = new ArrayList<>(JeoInput.gameInput());
